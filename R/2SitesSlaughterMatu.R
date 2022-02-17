@@ -1,5 +1,5 @@
 #'
-#' @title Percent Body Fat Estimates Using Slaughter et al. (1988) according to maturational level.
+#' @title Percent Body Fat Estimates Using Slaughter et al. (1988) According to Maturational Level.
 #'
 #'
 #' @name Slaughter.2sites.Matur
@@ -33,13 +33,9 @@
 #'
 #'
 #' @examples
-#' # Installing package
-#' install.packages("bodycomp")
-#'
-#' # Loading package
-#' library(bodycomp)
 #'
 #' #Predicting % body fat
+#'
 #' df <- Slaughter.2sites.Matur(Sex = 0, Matur_lv = 1, Race = 1, TR = 13, SB = 17)
 #'
 #'

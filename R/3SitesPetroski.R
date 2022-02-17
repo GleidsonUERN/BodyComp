@@ -45,13 +45,9 @@
 #'
 #'
 #' @examples
-#' # Installing package
-#' install.packages("bodycomp")
-#'
-#' # Loading package
-#' library(bodycomp)
 #'
 #' # Predicting % body fat
+#'
 #' df <- Petroski.3sites(Sex = 1, SB = 9, SI = 9, TH = 9,
 #'                       Age = 28, Weight = 71, Height = 170, Equation = 1, Output.format = 0)
 #'

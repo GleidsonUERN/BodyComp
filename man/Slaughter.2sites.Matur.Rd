@@ -2,7 +2,7 @@
 % Please edit documentation in R/2SitesSlaughterMatu.R
 \name{Slaughter.2sites.Matur}
 \alias{Slaughter.2sites.Matur}
-\title{Percent Body Fat Estimates Using Slaughter et al. (1988) according to maturational level.}
+\title{Percent Body Fat Estimates Using Slaughter et al. (1988) According to Maturational Level.}
 \usage{
 Slaughter.2sites.Matur(Sex, Matur_lv, Race, TR, SB)
 }
@@ -24,13 +24,9 @@ This function returns percent body mass estimates based on 2 sites skinfold meas
 Sex: Use 0 for Male and 1 for Female. Matur_lv: Use 1 for prepubescent (stages 1 and 2 - Tanner Scale); 2 for pubescent (stage 3 - Tanner Scale) and 3 for postpubescent (stages 4 and 5 - Tanner Scale). Race: Use 0 for white boys and 1 for black boys.
 }
 \examples{
-# Installing package
-install.packages("bodycomp")
-
-# Loading package
-library(bodycomp)
 
 #Predicting \% body fat
+
 df <- Slaughter.2sites.Matur(Sex = 0, Matur_lv = 1, Race = 1, TR = 13, SB = 17)
 
 

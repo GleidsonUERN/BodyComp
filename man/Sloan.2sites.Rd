@@ -28,16 +28,10 @@ This function returns percent body mass estimates based on 2 sites skinfold meas
 Sex:Use 0 for Male and 1 for Female. Equation: Use 1 for Siri (1961) equation or 2 for Brozek et al. (1963) equation. Output.format: Use 0 to display Percent Body Fat (\%BF) and Body Density (BD) together; use 1 to display \%BF only; use 2 to display BD only.
 }
 \examples{
-# Installing package
-install.packages("bodycomp")
-
-# Loading package
-library(bodycomp)
 
 #Predicting \% body fat
+
 df <- Sloan.2sites(Sex = 1, TH = 24, SB = 33, SI = 24, TR = 19, Equation = 1, Output.format = 0)
-
-
 
 
 }

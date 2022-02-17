@@ -29,13 +29,8 @@
 #'
 #' @example
 #'
-#' # Installing package
-#' install.packages("bodycomp")
-#'
-#' # Loading package
-#' library(bodycomp)
-#'
 #' #Predicting % body fat
+#'
 #' df <- Slaughter.2sites(Sex = 1, TR = 17.1, CA = 24.3)
 #'
 #'

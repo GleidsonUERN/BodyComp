@@ -47,13 +47,9 @@
 #' Brozek J., F. Grande, J. Anderson, et al. 1963. Densitometric analysis of body composition: Revision of some quantitative assumptions. Annals of the New York Academy of Sciences 110: 113-140.
 #'
 #' @examples
-#' # Installing package
-#' install.packages("bodycomp")
 #'
-#' # Loading package
-#' library(bodycomp)
+#' # Predicting % body fat
 #'
-#' #Predicting % body fat
 #' df <- Jackson.7sites(Sex = 1, TH = 12, SB = 13, SI = 14, TR = 15, CH = 15, AB = 16,
 #'                      MA = 14, Age = 32, Equation = 1, Output.format = 2)
 #'

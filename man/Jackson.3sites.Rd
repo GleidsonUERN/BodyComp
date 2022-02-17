@@ -32,13 +32,10 @@ This function returns percent body mass estimates based on 3 sites skinfold meas
 Sex: Use 0 for Male (Jackson and Pollock. 1978) or 1 for Female (Jackson et al. 1980). Use 1 for Siri (1961) equation or 2 for Brozek et al. (1963) equation. Output.format: Use 0 to display Percent Body Fat (\%BF) and Body Density (BD) together; use 1 to display \%BF only; use 2 to display BD only.
 }
 \examples{
-# Installing package
-install.packages("bodycomp")
 
-# Loading package
-library(bodycomp)
 
-#Predicting \% body fat
+# Predicting \% body fat
+
 df <- Jackson.3sites(Sex = 1, CH = 34, AB = 24, TH = 24, TR = 17, SI = 33,
                      Age = 28, Equation = 1, Output.format = 0)
 

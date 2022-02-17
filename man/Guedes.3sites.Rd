@@ -32,13 +32,9 @@ Sex:Use 0 for Male and 1 for Female. Equation: Use 1 for Siri (1961) equation or
 #'
 }
 \examples{
-# Installing package
-install.packages("bodycomp")
 
-# Loading package
-library(bodycomp)
+# Predicting \% body fat
 
-#Predicting \% body fat
 df <- Guedes.3sites(Sex = 1, TR = 34, AB = 24, SI = 33, TH = 24, SB = 19,
                     Equation = 1, Output.format = 0)
 

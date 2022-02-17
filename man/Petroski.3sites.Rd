@@ -48,13 +48,9 @@ This function returns percent body mass estimates based on 3 sites skinfold meas
 Sex:Use 0 for Male and 1 for Female. Equation: Use 1 for Siri (1961) equation or 2 for Brozek et al. (1963) equation. Output.format: Use 0 to display Percent Body Fat (\%BF) and Body Density (BD) together; use 1 to display \%BF only; use 2 to display BD only.
 }
 \examples{
-# Installing package
-install.packages("bodycomp")
-
-# Loading package
-library(bodycomp)
 
 # Predicting \% body fat
+
 df <- Petroski.3sites(Sex = 1, SB = 9, SI = 9, TH = 9,
                       Age = 28, Weight = 71, Height = 170, Equation = 1, Output.format = 0)
 

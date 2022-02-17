@@ -42,13 +42,10 @@
 #'
 #'
 #' @examples
-#' # Installing package
-#' install.packages("bodycomp")
 #'
-#' # Loading package
-#' library(bodycomp)
 #'
-#' #Predicting % body fat
+#' # Predicting % body fat
+#'
 #' df <- Jackson.3sites(Sex = 1, CH = 34, AB = 24, TH = 24, TR = 17, SI = 33,
 #'                      Age = 28, Equation = 1, Output.format = 0)
 #'

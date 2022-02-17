@@ -38,16 +38,10 @@
 #'
 #'
 #' @examples
-#' # Installing package
-#' install.packages("bodycomp")
-#'
-#' # Loading package
-#' library(bodycomp)
 #'
 #' #Predicting % body fat
+#'
 #' df <- Sloan.2sites(Sex = 1, TH = 24, SB = 33, SI = 24, TR = 19, Equation = 1, Output.format = 0)
-#'
-#'
 #'
 #'
 #'@export

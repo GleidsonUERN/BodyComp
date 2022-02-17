@@ -40,13 +40,9 @@
 #'
 #'
 #' @example
-#' # Installing package
-#' install.packages("bodycomp")
-#'
-#' # Loading package
-#' library(bodycomp)
 #'
 #' #Predicting % body fat
+#'
 #' df <- Durnin.4sites(Sex = 1, TR = 14, BI = 12, SB = 18, SI = 18, Age = 28, Equation = 2, Output.format = 2)
 #'
 #'

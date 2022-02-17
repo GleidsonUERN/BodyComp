@@ -25,13 +25,6 @@ Equation: Use 1 for Siri (1961) equation or 2 for Brozek et al. (1963) equation.
 }
 \examples{
 
-# Installing package
-
-install.packages("bodycomp")
-# Loading package
-
-library(bodycomp)
-
 # Predicting \% body fat
 
 df<- Petroski.2sites(TR = c(23,24), MA = c(34,33), Age = c(24,27), Equation = 1, Output.format = 0)
