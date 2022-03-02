@@ -5,7 +5,10 @@
 #' @name Sloan.2sites
 #'
 #'
-#' @description This function returns percent body mass estimates based on 2 sites skinfold measurements using the equations of Sloan and Weir (1970). Population Specifications: Both sexes; Athletes; Male (aged 18-26) and Female (aged 17-25).
+#' @description This function calculates the percent body mass estimates based on 2 sites skinfold measurements using the equations of Sloan and Weir (1970). Population Specifications: Both sexes; Athletes; Male (aged 18-26) and Female (aged 17-25).
+#'
+#'
+#' @return Returns a data frame with the values of the \% body fat and body density from a subject assessed by skinfold measurements
 #'
 #'
 #' @param TH a value or a vector representing Thigh Skinfold measurement. Direction of Fold: Vertical (midlin). Anatomical Reference: Inguinal crease and patella. Measurement: Fold is lifted on anterior aspect of thigh midway between inguinal crease and proximal border of patella. Body weight is shifted to left foot and caliper is applied 1 cm below fingers.
@@ -31,6 +34,8 @@
 #' Harrison GG, Buskirk ER, Carter JEL, Johnston FE, Lohman TG, Pollock ML, et al.  Skinfold thicknesses and measurements technique.  In:  Lohman TG, Roche AF, Martorell R, editors. Anthropometric standardizing reference manual. Champaign (Illinois): Human Kinetics Books; 1991. p.55-80.
 #'
 #' International Society for the Advancement of Kinanthropometry (ISAK), 2001. International Standards for Anthropometric Assessment. (Underdale, SA, Australia.)
+#'
+#' Eston, R. (Ed.). (2008). Kinanthropometry and Exercise Physiology Laboratory Manual: Tests, Procedures and Data: Volume One: Anthropometry (3rd ed.). Routledge. https://doi.org/10.4324/9780203868744
 #'
 #' Siri, W. E. Body composition from fluid space and density. In: BROZEK, J.; HANSCHEL, A. (Eds.). Techniques for measuring body composition. Washing, D.C.:National Academy of Science, 1961. p. 223-224.
 #'

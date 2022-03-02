@@ -5,7 +5,10 @@
 #' @name Slaughter.2sites
 #'
 #'
-#' @description This function returns percent body mass estimates based on 2 sites skinfold measurements using the equations of Slaughter et al. (1988). Population Specifications: Both sexes. Boys (aged 8 - 18) and Girls (aged 8 - 18)
+#' @description This function calculates the percent body mass estimates based on 2 sites skinfold measurements using the equations of Slaughter et al. (1988). Population Specifications: Both sexes. Boys (aged 8 - 18) and Girls (aged 8 - 18)
+#'
+#'
+#' @return Returns a data frame with the values of the \% body fat from a subject assessed by skinfold measurements
 #'
 #'
 #' @param Sex a value or a vector representing the sex declared by the subject. Two possible choices: 0 or 1.
@@ -24,10 +27,12 @@
 #'
 #' International Society for the Advancement of Kinanthropometry (ISAK), 2001. International Standards for Anthropometric Assessment. (Underdale, SA, Australia.)
 #'
+#' Eston, R. (Ed.). (2008). Kinanthropometry and Exercise Physiology Laboratory Manual: Tests, Procedures and Data: Volume One: Anthropometry (3rd ed.). Routledge. https://doi.org/10.4324/9780203868744
+#'
 #' Lohman TG. Advances in Body Composition Assessment: Current Issues in Exercise Science, Monograph Number 3. Champaign, IL: Human Kinetics, 1992.
 #'
 #'
-#' @example
+#' @examples
 #'
 #' #Predicting % body fat
 #'

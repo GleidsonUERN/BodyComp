@@ -23,8 +23,11 @@ Guedes.3sites(Sex, TR, AB, SI, TH, SB, Equation, Output.format)
 
 \item{Output.format}{desired output information. Tree possible choices: 0, 1 or 2.}
 }
+\value{
+Returns a data frame with the values of the \% body fat and body density from a subject assessed by skinfold measurements
+}
 \description{
-This function returns percent body mass estimates based on 3 sites skinfold measurements using the equations of Guedes (1965). Population Specifications: Both sexes; Brazilian university students; Male and Female (aged 18-30).
+This function calculates the percent body mass estimates based on 3 sites skinfold measurements using the equations of Guedes (1965). Population Specifications: Both sexes; Brazilian university students; Male and Female (aged 18-30).
 }
 \details{
 Sex:Use 0 for Male and 1 for Female. Equation: Use 1 for Siri (1961) equation or 2 for Brozek et al. (1963) equation. Output.format: Use 0 to display Percent Body Fat (\%BF) and Body Density (BD) together; use 1 to display \%BF only; use 2 to display BD only.

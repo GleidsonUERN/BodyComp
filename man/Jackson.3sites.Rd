@@ -25,8 +25,11 @@ Jackson.3sites(Sex, CH, AB, TH, TR, SI, Age, Equation, Output.format)
 
 \item{Output.format}{desired output information. Tree possible choices: 0, 1 or 2.}
 }
+\value{
+Returns a data frame with the values of the \% body fat and body density from a subject assessed by skinfold measurements
+}
 \description{
-This function returns percent body mass estimates based on 3 sites skinfold measurements using the equations of Pollock (1978) and Jackson et al. (1980). Population Specifications: Both sexes; Male (aged 18-61) and Female (aged 18-55).
+This function calculates the percent body mass estimates based on 3 sites skinfold measurements using the equations of Pollock (1978) and Jackson et al. (1980). Population Specifications: Both sexes; Male (aged 18-61) and Female (aged 18-55).
 }
 \details{
 Sex: Use 0 for Male (Jackson and Pollock. 1978) or 1 for Female (Jackson et al. 1980). Use 1 for Siri (1961) equation or 2 for Brozek et al. (1963) equation. Output.format: Use 0 to display Percent Body Fat (\%BF) and Body Density (BD) together; use 1 to display \%BF only; use 2 to display BD only.
@@ -47,6 +50,8 @@ Jackson, A.S., and M.L. Pollock. 1978. Generalized equations for predicting body
 Jackson, A.S., M.L. Pollock, and A. Ward. 1980. Generalized equations for predicting body density of women. Medicine & Science in Sports & Exercise 12: 175-181.
 
 International Society for the Advancement of Kinanthropometry (ISAK), 2001. International Standards for Anthropometric Assessment. (Underdale, SA, Australia.)
+
+Eston, R. (Ed.). (2008). Kinanthropometry and Exercise Physiology Laboratory Manual: Tests, Procedures and Data: Volume One: Anthropometry (3rd ed.). Routledge. https://doi.org/10.4324/9780203868744
 
 Siri, W. E. Body composition from fluid space and density. In: BROZEK, J.; HANSCHEL, A. (Eds.). Techniques for measuring body composition. Washing, D.C.:National Academy of Science, 1961. p. 223-224.
 

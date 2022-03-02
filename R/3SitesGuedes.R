@@ -5,7 +5,10 @@
 #' @name Guedes.3sites
 #'
 #'
-#' @description This function returns percent body mass estimates based on 3 sites skinfold measurements using the equations of Guedes (1965). Population Specifications: Both sexes; Brazilian university students; Male and Female (aged 18-30).
+#' @description This function calculates the percent body mass estimates based on 3 sites skinfold measurements using the equations of Guedes (1965). Population Specifications: Both sexes; Brazilian university students; Male and Female (aged 18-30).
+#'
+#'
+#' @return Returns a data frame with the values of the \% body fat and body density from a subject assessed by skinfold measurements
 #'
 #'
 #' @param Sex a value or a vector representing the sex declared by the subject. Two possible choices: 0 or 1.

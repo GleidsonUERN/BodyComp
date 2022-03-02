@@ -5,7 +5,10 @@
 #' @name Jackson.3sites
 #'
 #'
-#' @description This function returns percent body mass estimates based on 3 sites skinfold measurements using the equations of Pollock (1978) and Jackson et al. (1980). Population Specifications: Both sexes; Male (aged 18-61) and Female (aged 18-55).
+#' @description This function calculates the percent body mass estimates based on 3 sites skinfold measurements using the equations of Pollock (1978) and Jackson et al. (1980). Population Specifications: Both sexes; Male (aged 18-61) and Female (aged 18-55).
+#'
+#'
+#' @return Returns a data frame with the values of the \% body fat and body density from a subject assessed by skinfold measurements
 #'
 #'
 #' @param Sex a value or a vector representing the sex declared by the subject. Two possible choices: 0 or 1.
@@ -35,6 +38,8 @@
 #' Jackson, A.S., M.L. Pollock, and A. Ward. 1980. Generalized equations for predicting body density of women. Medicine & Science in Sports & Exercise 12: 175-181.
 #'
 #' International Society for the Advancement of Kinanthropometry (ISAK), 2001. International Standards for Anthropometric Assessment. (Underdale, SA, Australia.)
+#'
+#' Eston, R. (Ed.). (2008). Kinanthropometry and Exercise Physiology Laboratory Manual: Tests, Procedures and Data: Volume One: Anthropometry (3rd ed.). Routledge. https://doi.org/10.4324/9780203868744
 #'
 #' Siri, W. E. Body composition from fluid space and density. In: BROZEK, J.; HANSCHEL, A. (Eds.). Techniques for measuring body composition. Washing, D.C.:National Academy of Science, 1961. p. 223-224.
 #'

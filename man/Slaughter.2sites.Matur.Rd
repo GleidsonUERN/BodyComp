@@ -17,8 +17,11 @@ Slaughter.2sites.Matur(Sex, Matur_lv, Race, TR, SB)
 
 \item{SB}{a value or a vector representing Subscapular Skinfold measurements. Direction of Fold: Diagonal. Anatomical Reference: Inferior angle of scapula. Measurement: Fold is along natural cleavage line of skin just inferior to inferior angle of scapula, with caliper applied 1 cm below fingers.}
 }
+\value{
+Returns a data frame with the values of the \% body fat from a subject assessed by skinfold measurements
+}
 \description{
-This function returns percent body mass estimates based on 2 sites skinfold measurements using the equations of Slaughter et al. (1988). Population Specifications: American black and white boys (aged 8 - 18) around maturation groups (Tanner Scale, 1962). American girls (aged 8 - 18).
+This function calculates the percent body mass estimates based on 2 sites skinfold measurements using the equations of Slaughter et al. (1988). Population Specifications: American black and white boys (aged 8 - 18) around maturation groups (Tanner Scale, 1962). American girls (aged 8 - 18).
 }
 \details{
 Sex: Use 0 for Male and 1 for Female. Matur_lv: Use 1 for prepubescent (stages 1 and 2 - Tanner Scale); 2 for pubescent (stage 3 - Tanner Scale) and 3 for postpubescent (stages 4 and 5 - Tanner Scale). Race: Use 0 for white boys and 1 for black boys.
@@ -37,6 +40,8 @@ Slaughter, M. H. et al. Skinfold equations for estimation of body fatness in chi
 Harrison GG, Buskirk ER, Carter JEL, Johnston FE, Lohman TG, Pollock ML, et al.  Skinfold thicknesses and measurements technique.  In:  Lohman TG, Roche AF, Martorell R, editors. Anthropometric standardizing reference manual. Champaign (Illinois): Human Kinetics Books; 1991. p.55-80.
 
 International Society for the Advancement of Kinanthropometry (ISAK), 2001. International Standards for Anthropometric Assessment. (Underdale, SA, Australia.).
+
+Eston, R. (Ed.). (2008). Kinanthropometry and Exercise Physiology Laboratory Manual: Tests, Procedures and Data: Volume One: Anthropometry (3rd ed.). Routledge. https://doi.org/10.4324/9780203868744
 
 Lohman TG. Advances in Body Composition Assessment: Current Issues in Exercise Science, Monograph Number 3. Champaign, IL: Human Kinetics, 1992.
 }

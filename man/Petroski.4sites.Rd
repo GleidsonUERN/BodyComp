@@ -44,8 +44,11 @@ Petroski.4sites(
 
 \item{Output.format}{desired output information. Tree possible choices: 0, 1 or 2.}
 }
+\value{
+Returns a data frame with the values of the \% body fat and body density from a subject assessed by skinfold measurements
+}
 \description{
-This function returns percent body mass estimates based on 4 sites skinfold measurements using the equations of Petroski (1995). Population Specifications: Brazilians Male (aged 18-66) and Female (aged 18-51).
+This function calculates the percent body mass estimates based on 4 sites skinfold measurements using the equations of Petroski (1995). Population Specifications: Brazilians Male (aged 18-66) and Female (aged 18-51).
 }
 \details{
 Sex:Use 0 for Male and 1 for Female. Equation: Use 1 for Siri (1961) equation or 2 for Brozek et al. (1963) equation. Output.format: Use 0 to display Percent Body Fat (\%BF) and Body Density (BD) together; use 1 to display \%BF only; use 2 to display BD only.

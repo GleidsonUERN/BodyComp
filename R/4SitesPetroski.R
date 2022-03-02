@@ -5,7 +5,10 @@
 #' @name Petroski.4sites
 #'
 #'
-#' @description This function returns percent body mass estimates based on 4 sites skinfold measurements using the equations of Petroski (1995). Population Specifications: Brazilians Male (aged 18-66) and Female (aged 18-51).
+#' @description This function calculates the percent body mass estimates based on 4 sites skinfold measurements using the equations of Petroski (1995). Population Specifications: Brazilians Male (aged 18-66) and Female (aged 18-51).
+#'
+#'
+#' @return Returns a data frame with the values of the \% body fat and body density from a subject assessed by skinfold measurements
 #'
 #'
 #' @param Sex a value or a vector representing the sex declared by the subject. Two possible choices: 0 or 1.
