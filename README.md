@@ -1,4 +1,6 @@
-# bodycomp <img src = "https://user-images.githubusercontent.com/98269022/156636856-ecdbd517-0b01-4e55-8cdd-4eb10abe638e.png" align="right" height="139" /></a>
+# bodycomp
+
+<img src = "https://user-images.githubusercontent.com/98269022/156636856-ecdbd517-0b01-4e55-8cdd-4eb10abe638e.png" align="right" height="139" /></a>
 
 [![CRAN
 status](https://www.r-pkg.org/badges/version/bodycomp)](https://cran.r-project.org/package=bodycomp)
