@@ -12,3 +12,7 @@ Skinfold measurements is one of the most popular and practical methods for estim
 ### by: Gleidson Mendes Rebouças
 
 The package is currently available in [**R**](https://CRAN.R-project.org/package=bodycomp)
+
+| ***R*** |
+|-----|
+| [![CRAN/METACRAN Version](https://www.r-pkg.org/badges/version/bodycomp)](https://CRAN.R-project.org/package=bodycomp) <br /> [![CRAN/METACRAN Total downloads](http://cranlogs.r-pkg.org/badges/grand-total/bodycomp?color=blue)](https://CRAN.R-project.org/package=bodycomp) <br /> [![CRAN/METACRAN downloads per month](http://cranlogs.r-pkg.org/badges/bodycomp?color=yellow)](https://CRAN.R-project.org/package=bodycomp) |
