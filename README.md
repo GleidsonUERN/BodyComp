@@ -13,3 +13,12 @@ The package is currently available in [**R**](https://CRAN.R-project.org/package
 | ***R*** |
 |-----|
 | [![CRAN/METACRAN Version](https://www.r-pkg.org/badges/version/bodycomp)](https://CRAN.R-project.org/package=bodycomp) <br /> [![CRAN/METACRAN Total downloads](http://cranlogs.r-pkg.org/badges/grand-total/bodycomp?color=blue)](https://CRAN.R-project.org/package=bodycomp) <br /> [![CRAN/METACRAN downloads per month](http://cranlogs.r-pkg.org/badges/bodycomp?color=yellow)](https://CRAN.R-project.org/package=bodycomp) |
+
+  
+  ## Installation R
+
+```R
+# From CRAN
+  install.packages("bodycomp")
+  library(bodycomp)
+
