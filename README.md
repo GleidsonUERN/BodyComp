@@ -1,6 +1,6 @@
 # bodycomp
 
-<img align="right" src="https://user-images.githubusercontent.com/98269022/156636856-ecdbd517-0b01-4e55-8cdd-4eb10abe638e.png" alt="logo" width="180"> 
+<img align="right" src="https://user-images.githubusercontent.com/98269022/156636856-ecdbd517-0b01-4e55-8cdd-4eb10abe638e.png" alt="logo" width="280"> 
 
 ## Body density and percent body fat values using anthropometric prediction equations
 
